@@ -116,8 +116,11 @@ class Rack:
 
     def printsolution(self):
         print("This rack can make the following words (length three or more):")
+        # Print out the solution words grouped by length (skip lengths that have no words)
         for length in range(3,8,1):
-            print [word for word in self.solution if len(word) == length]
+            wordsbylength = [word for word in self.solution if len(word) == length]
+            if len(wordsbylength) > 0:
+                print wordsbylength
 
 
 def main():
