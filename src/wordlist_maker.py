@@ -14,7 +14,7 @@ __version__ = "2.7.8"
 
 # First change the working directory to the hardcoded directory where we will expect to find the OWL3 and to output
 # the wordlists we generate.
-path = "C:\Users\Sonya\Dropbox\Shared_SDS_WDB\ScrabbleWords"
+path = "C:/Users/Sonya/Dropbox/Shared_SDS_WDB/ScrabbleProject"
 os.chdir(path)
 
 # Now read in the dictionary to create a list where each element is a word. Readlines returns a list where each
@@ -143,7 +143,7 @@ def wordcontent(word, matchlist, minfraction):
     matches = [(char in matchlist) for char in word]
 
     # Compute percentage of characters matching the "match list" by adding the "1"s in the above list
-    percentage = sum(matches)/len(word)
+    percentage = sum(matches)/float(len(word))
     return True if percentage >= minfraction else False
 
 

@@ -7,7 +7,7 @@ import os  # access to systems primitives
 
 __author__ = 'Sonya'
 __email__ = "sdsawtelle@gmail.com"
-__version__ = "2.7.8"
+__version__ = "3.5"
 
 
 # First change the working directory to the hardcoded directory where we will keep these three .txt files and ONLY
@@ -18,14 +18,13 @@ __version__ = "2.7.8"
 # Hardcode where the textfiles are kept and change to that directory
 path = "C:\Users\Sonya\Dropbox\Shared_SDS_WDB\ScrabbleWords\DictionaryLists"
 os.chdir(path)
-print os.getcwd()
 
 # os.walk walks the input directory and for each dir rooted there (starting with the input directory itself) it returns
 # a tuple of path,dirname,filenames. Note that next(iterator) is equivalent to iterator.next() and both just call the
 # _next_ method of the iterator
 sources = next(os.walk(path))[2]
 
-print os.path.dirname(path)
+# print(os.path.dirname(path))
 
 # Loop through the list of text sources and for each one open it and read it into a list of words assuming the words are
 # delimitd by newlines. The list of words for each file is stored as an element of the list wordlists. Note that
@@ -49,14 +48,14 @@ full_dictionary = list(set(words))
 # Alphabetize the list with sort method - remember that it modifies your list in place! Then output this as a
 # newline-delimited text file. This is our official dictionary without any length restrictions.
 full_dictionary.sort()
-with open("C:\Users\Sonya\Dropbox\Shared_SDS_WDB\ScrabbleWords\OWL3_Dictionary.txt",'w') as text:
+with open("C:\Users\Sonya\Dropbox\Shared_SDS_WDB\ScrabbleWords\OWL3_Dictionary.txt", 'w') as text:
     text.writelines(["%s\n" % item for item in full_dictionary])
 
 
 # # Now remove all the words whose length is more than seven, this will be our official list for the anagram game.
 short_dictionary = [word for word in full_dictionary if len(word) <= 7]
-with open("C:\Users\Sonya\Dropbox\Shared_SDS_WDB\ScrabbleWords\OWL3_WordsLengthSevenOrLess.txt",'w') as text:
+with open("C:\Users\Sonya\Dropbox\Shared_SDS_WDB\ScrabbleWords\OWL3_WordsLengthSevenOrLess.txt", 'w') as text:
     text.writelines(["%s\n" % item for item in short_dictionary])
 
 
-print
+print()

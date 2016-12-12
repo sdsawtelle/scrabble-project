@@ -10,7 +10,7 @@ import stanagram_map as maps  # access the standard anagram mapping created by s
 
 __author__ = 'Sonya'
 __email__ = "sdsawtelle@gmail.com"
-__version__ = "2.7.8"
+__version__ = "3.5"
 
 
 class Game:
@@ -21,12 +21,12 @@ class Game:
         self.exit = False
 
     def menu(self):
-        print "---------------------------------------------------------"
-        print "---------------------------------------------------------"
-        print "(1) See Rules"
-        print "(2) Play!"
-        print "(3) Exit"
-        choice = raw_input("What is your choice? (enter a number)")
+        print("---------------------------------------------------------")
+        print("---------------------------------------------------------")
+        print("(1) See Rules")
+        print("(2) Play!")
+        print("(3) Exit")
+        choice = input("What is your choice? (enter a number)")
 
         if choice == "1":
             self.printrules()
@@ -35,21 +35,22 @@ class Game:
         elif choice == "3":
             self.exit = True
         else:
-            print "Not a valid choice you fool!"
+            print("Not a valid choice you fool!")
             self.menu()
 
     def play(self):
         newrack = Rack(self.bagtiles)
         newrack.printrack()
-        print "This rack can make ", len(newrack.solution), " different words of length three or more."
-        raw_input("Please hit enter when you are ready to see the solutions...\n")
+        print("This rack can make ", len(newrack.solution), " different words of length three or more.")
+        input("Please hit enter when you are ready to see the solutions...\n")
         newrack.printsolution()
 
     def printrules(self):
-        print "---------------------------------------------------------"
-        print "You will be presented with a first-turn scrabble rack (a draw of seven tiles from a fresh bag of all the tiles)."
-        print "Your job is to figure out all the words of length three or more that can be made with your rack!"
-        print "An asterisk (*) indicates a blank tile i.e. a wildcard."
+        print("---------------------------------------------------------")
+        print("You will be presented with a first-turn scrabble rack "
+              "(a draw of seven tiles from a fresh bag of all the tiles).")
+        print("Your job is to figure out all the words of length three or more that can be made with your rack!")
+        print("An asterisk (*) indicates a blank tile i.e. a wildcard.")
 
 
 class Rack:
@@ -110,7 +111,7 @@ class Rack:
         return solution
 
     def printrack(self):
-        print "---------------------------------------------------------"
+        print("---------------------------------------------------------")
         print("This rack has the following tiles:")
         print("".join(self.racktiles))
 
@@ -120,22 +121,22 @@ class Rack:
         for length in range(3,8,1):
             wordsbylength = [word for word in self.solution if len(word) == length]
             if len(wordsbylength) > 0:
-                print wordsbylength
+                print(wordsbylength)
 
 
 def main():
     ''' This is the main program function that allows for the creation of one instance of class Game.'''
-    print "---------------------------------------------------------"
-    print "-----  Welcome to the Anagram Game -----"
+    print("---------------------------------------------------------")
+    print("-----  Welcome to the Anagram Game -----")
 
     newgame = Game()
 
     while(not newgame.exit):
         newgame.menu()
 
-    print "---------------------------------------------------------"
-    print "-----  Goodbye -----"
-    print "---------------------------------------------------------"
+    print("---------------------------------------------------------")
+    print("-----  Goodbye -----")
+    print("---------------------------------------------------------")
 
     return
 

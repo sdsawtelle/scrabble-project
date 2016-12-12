@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd875c27-966d-4072-9446-419b1e8c831a" name="Default" comment="" />
+    <list default="true" id="dd875c27-966d-4072-9446-419b1e8c831a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.ipynb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scrabble-lists.iml" afterPath="$PROJECT_DIR$/.idea/scrabble-lists.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/README_scrabble-lists-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/README_scrabble-lists-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_scrabble-lists.ipynb" afterPath="$PROJECT_DIR$/README_scrabble-lists.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dictionary_maker.py" afterPath="$PROJECT_DIR$/src/dictionary_maker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wordlist_maker.py" afterPath="$PROJECT_DIR$/src/wordlist_maker.py" />
+    </list>
     <ignored path="scrabble-lists.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +30,7 @@
     <favorites_list name="scrabble-lists" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,6 +38,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,14 +58,18 @@
         <option value="$USER_HOME$/Dropbox/Shared_SDS_WDB/ScrabbleWords/Stanagram_Map.py" />
         <option value="$PROJECT_DIR$/src/stanagram_map_maker.py" />
         <option value="$PROJECT_DIR$/src/anagram_console_game.py" />
+        <option value="$PROJECT_DIR$/README_scrabble-lists.ipynb" />
+        <option value="$PROJECT_DIR$/src/dictionary_maker.py" />
+        <option value="$PROJECT_DIR$/src/wordlist_maker.py" />
+        <option value="$PROJECT_DIR$/../python-research-data-scripts/pc_vs_rj_analysis.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -105,8 +122,8 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jupyter-notebooks/Learning Python.ipynb" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python-google-foobar" />
+    <property name="settings.editor.selected.configurable" value="pyconsole" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -122,7 +139,7 @@
       <recent name="C:\Users\Sonya\Box Sync\Code_NonGitVC\Python\scrabble-lists\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.anagram_console_game">
+  <component name="RunManager" selected="Python.dictionary_maker">
     <configuration default="false" name="wordlist-maker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,23 +157,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="stanagram-game-maker" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="scrabble-lists" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/stanagram-game-maker.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="anagram-game" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -206,6 +206,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrabble-lists" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/stanagram_map_maker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="dictionary_maker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="scrabble-lists" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/dictionary_maker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -346,18 +363,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.wordlist-maker" />
-      <item index="1" class="java.lang.String" itemvalue="Python.stanagram-game-maker" />
-      <item index="2" class="java.lang.String" itemvalue="Python.anagram-game" />
-      <item index="3" class="java.lang.String" itemvalue="Python.anagram_console_game" />
-      <item index="4" class="java.lang.String" itemvalue="Python.stanagram_map_maker" />
+      <item index="1" class="java.lang.String" itemvalue="Python.anagram-game" />
+      <item index="2" class="java.lang.String" itemvalue="Python.anagram_console_game" />
+      <item index="3" class="java.lang.String" itemvalue="Python.stanagram_map_maker" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dictionary_maker" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.anagram_console_game" />
-        <item index="1" class="java.lang.String" itemvalue="Python.stanagram_map_maker" />
-        <item index="2" class="java.lang.String" itemvalue="Python.anagram-game" />
-        <item index="3" class="java.lang.String" itemvalue="Python.wordlist-maker" />
-        <item index="4" class="java.lang.String" itemvalue="Python.stanagram-game-maker" />
+        <item index="0" class="java.lang.String" itemvalue="Python.dictionary_maker" />
+        <item index="1" class="java.lang.String" itemvalue="Python.anagram_console_game" />
+        <item index="2" class="java.lang.String" itemvalue="Python.stanagram_map_maker" />
+        <item index="3" class="java.lang.String" itemvalue="Python.anagram-game" />
+        <item index="4" class="java.lang.String" itemvalue="Python.wordlist-maker" />
       </list>
     </recent_temporary>
   </component>
@@ -398,28 +415,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.104166664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3973799" sideWeight="0.48660713" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42902207" sideWeight="0.51339287" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42842323" sideWeight="0.51339287" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49053627" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="630" y="180" width="704" height="306" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4858044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49017468" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4858044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -468,18 +485,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/wordlist-maker.py" />
-    <entry file="file://$PROJECT_DIR$/src/wordlist-maker.py" />
-    <entry file="file://$PROJECT_DIR$/src/IDE-learner.py" />
-    <entry file="file://$PROJECT_DIR$/src/dictionary-maker.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1647" column="0" selection-start-line="1647" selection-start-column="0" selection-end-line="1647" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IDE-learner.py" />
     <entry file="file://$PROJECT_DIR$/src/dictionary-maker.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -506,13 +511,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IDE-learner.py" />
-    <entry file="file://$PROJECT_DIR$/../jupyter-notebooks/Learning Python.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../jupyter-notebooks/Learning Python.ipynb" />
     <entry file="file://$PROJECT_DIR$/scrabble-lists.ipynb" />
     <entry file="file://$PROJECT_DIR$/src/stanagram-game-maker.py" />
     <entry file="file://$PROJECT_DIR$/src/wordlist-maker.py" />
@@ -562,49 +561,68 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IDE-learner.py" />
-    <entry file="file://$PROJECT_DIR$/../jupyter-notebooks/Learning Python.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../jupyter-notebooks/Learning Python.ipynb" />
     <entry file="file://$PROJECT_DIR$/scrabble-lists.ipynb" />
     <entry file="file://$PROJECT_DIR$/src/stanagram-game-maker.py" />
     <entry file="file://$PROJECT_DIR$/src/dictionary-maker.py" />
     <entry file="file://$PROJECT_DIR$/src/stanagram-map-maker.py" />
     <entry file="file://$PROJECT_DIR$/src/wordlist-maker.py" />
     <entry file="file://$PROJECT_DIR$/.idea/anagram-game.py" />
-    <entry file="file://$PROJECT_DIR$/src/anagram_game.py">
+    <entry file="file://$PROJECT_DIR$/src/anagram_game.py" />
+    <entry file="file://$USER_HOME$/Dropbox/Shared_SDS_WDB/ScrabbleWords/Stanagram_Map.py" />
+    <entry file="file://$PROJECT_DIR$/anagram_console_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stanagram_map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="112" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/Shared_SDS_WDB/ScrabbleWords/Stanagram_Map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105400">
-          <caret line="0" column="1121879" selection-start-line="0" selection-start-column="1121879" selection-end-line="0" selection-end-column="1121879" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stanagram_map_maker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/anagram_console_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="412">
           <caret line="121" column="38" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
-          <folding>
-            <element signature="e#298#339#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stanagram_map_maker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README_scrabble-lists.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dictionary_maker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wordlist_maker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="105" column="56" selection-start-line="105" selection-start-column="56" selection-end-line="105" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python-research-data-scripts/pc_vs_rj_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="178" column="49" selection-start-line="178" selection-start-column="49" selection-end-line="178" selection-end-column="49" />
         </state>
       </provider>
     </entry>
